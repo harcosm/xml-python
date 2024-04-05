@@ -132,6 +132,86 @@ se cumplan ninguna de las condiciones anteriores.
 Se pueden incluir todas las estructuras elif que se consideren oportunas. No hay un límite numérico de
 las que se pueden utilizar.*
 
+**ESTRUCTURAS REPETITIVAS O BUCLES.**
+
+Son estructuras cuya ejecución se repite mientras se cumpla una determinada condición. La diferencia con
+respecto a las estructuras condicionales (if) anteriores es que la estructura condicional únicamente se ejecuta
+una vez, es decir, ejecuta lo que se incluye dentro de la estructura if una única vez si se cumple la condición, sale
+del if y continúa con el resto del programa. En cambio, una estructura repetitiva ejecutará lo que se incluye
+dentro de esa estructura de repetición mientras se cumpla la condición, mientras la condición siga siendo
+verdadera.
+En el momento en que la condición deja de cumplirse, es falsa, el bucle o la ejecución de esa estructura finaliza y
+continúa ejecutando el resto del programa.
+Es importante tener en cuenta que la condición en algún momento de la ejecución debe ser falsa y no debe
+cumplirse para que la ejecución finalice, en caso contrario, nunca finalizará la ejecución y tendremos lo que se
+denomina un bucle infinito.
+Dentro de las estructuras de repetición tenemos 2 tipos en Python:
+
+**Estructura de repetición con condición inicial: (while)**
+
++ Estructura en la que se evalúa la condición al principio o inicio de la estructura. Si se cumple la condición
+entrará dentro de esa estructura y lo ejecutará mientras que la condición sea verdadera. Si no se cumple la
+condición de inicio no entrará dentro de esa estructura, por tanto, existe la posibilidad que nunca se ejecuten
+las sentencias que hay dentro de la estructura while y continuará ejecutando el resto del programa.
+Esta estructura se utiliza cuando antes de comenzar el bucle sabemos con seguridad el valor de la variable
+que se indica en la condición, bien porque la variable de la condición se inicializa justo antes del bucle (caso
+A), bien porque el valor de la variable de la condición se ha pedido al usuario mediante teclado antes del
+bucle (caso B), bien porque antes del bucle hemos realizado un cálculo que nos asigna el valor a la variable de
+la condición (caso C). Para los tres casos el valor de la variable se obtiene antes del bucle.
+
+**Ejemplos:**
+…
+A)
+a = 0
+while (a &gt; 0): No se cumple la condición. No ejecutará el interior del bucle
+a = a + 2
+print(a)
+
+B)
+a = 0
+while (a &gt;= 0): Se cumple la condición. Ejecutará el interior del bucle.
+a = a + 2 Siempre se cumplirá que a &gt;= 0. Bucle infinito
+print(a) Mostrará los números pares: 2, 4, 6, 8, 10, 12, …
+
+C)
+a = 10;
+while (a &gt;= 0): Se cumple la condición. Ejecutará el interior del bucle.
+a = a - 2 Cuando a = 0 -2 = -2 ya no se cumple la condición, ejecución finalizará
+print(a) Mostrará los números 8, 6, 4, 2, 0, -2
+
+> Existe una variable de control que “controla” la ejecución del bucle, dentro de la estructura while se modifica esa
+variable de control para que en algún momento la condición no se cumpla y la ejecución finalice. La variable de
+control normalmente es la misma que la que está indicada en la condición del bucle.
+
+
+**Estructura iterativa: (for)**
+
++ Estructura en la que se ejecutan una serie de sentencias incluidas dentro de la estructura for desde un valor
+inicial hasta un valor final conocidos.
+En esta estructura no tenemos variable de control dentro del bucle, sino que la propia estructura estructura
+for realiza la modificación de la variable, dependiendo del rango indicado y los valores de este.
+
+Dependiendo del número de valores indicados en el rango del bucle for, éste se comporta de diferente
+forma:
+
+1. Si indico únicamente un valor en el rango: Los valores serán desde 0 hasta el valor indicado en el
+rango – 1, por tanto, si indico 11 se ejecutará desde 0 hasta el valor 10. Además, el incremento,
+como tampoco se indica, será automáticamente de 1 en 1.
+
+1. Si indico dos valores en el rango: Los valores serán desde el valor inicial hasta el valor final –
+2, además, el incremento, que no se indica, será automáticamente de 1 en 1.
+2. Si indico dos valores en el rango: Los valores serán desde el valor inicial hasta el valor final –
+1, además, el incremento, que no se indica, será automáticamente de 1 en 1.
+3. Si indico tres valores en el rango: Los valores serán desde el valor inicial hasta el valor final –
+1, y se indica también el incremento.
+
+> Si quiero comenzar desde 0 y que el incremento sea distinto de 1, por ejemplo 3, tengo que
+ponerle 3 parámetros. No puedo omitir el 0 ya que si le pongo solo dos parametros Python
+reconocerá la función únicamente como el anterior caso, es decir, con un inicio y un fin.
+
+
+
+
 
 
 
