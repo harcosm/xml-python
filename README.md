@@ -262,6 +262,86 @@ La clave de un diccionario es única y no se puede repetir, el valor para esa cl
 
 ![Alt](https://www.bigbaydata.com/wp-content/uploads/2022/07/diccionarios-en-python.webp)
 
+_METODOS PARA EL MANEJO DE DICCIONARIOS DE PYTHON_
+
+
++ len: Devuelve el número de elementos que tiene el diccionario.
++ clear: Eliminar todo el contenido del diccionario.
++ get(clave [, valor_defecto]): Devuelve el valor para la clave indicada dentro del parámetro. El valor por
+defecto es opcional, en caso de indicarlo es el valor que devolverá si no encuentre la clave dentro del
+diccionario. Si no encuentra la clave y no se le ha indicado valor por defecto, devolverá el objeto vacío
+None.
++ items: Devuelve una lista con las claves y los valores del diccionario, cada elemento de esta lista será
+una tupla donde el primer elemento es la clave y el segundo elemento es el valor.
++ keys: Devuelve una lista con las claves del diccionario.
++ values: Devuelve una lista con los valores del diccionario.
++ copy: Realiza una copia del diccionario en otra dirección de memoria, para que los cambios en uno de
+los diccionarios no afecten al diccionario copiado. En caso de realizar únicamente una asignación entre
+diccionarios con el operador = estamos asignando la misma posición de memoria para ambos objetos,
+por tanto, cualquier cambio en uno de ellos se verá reflejado en el otro.
++ pop(clave [, valor_defecto]): Busca y elimina la clave que se le pasa por parámetro, devuelve el valor
+asociado para esa clave antes de eliminarlo, en caso que no encuentre la clave a eliminar devuelve el
+valor por defecto. En caso que no se indique el valor por defecto y no exista la variable , la función pop
+devuelve una Excepción KeyError.
+
+
+### XML: ###
+> XML, o Extensible Markup Language, es un lenguaje de marcado diseñado para describir datos de manera estructurada. A diferencia de HTML, que está diseñado para mostrar información y contenido en la web, XML se enfoca en describir los datos en sí mismos. Fue creado para ser legible tanto por humanos como por máquinas, y su flexibilidad lo hace adecuado para una amplia gama de aplicaciones.
+
+**Elementos Basicos de xml**
+
++ Elementos: Los datos en XML están organizados en elementos. Un elemento XML comienza con una etiqueta de apertura, contiene los datos, y termina con una etiqueta de cierre. Por ejemplo: <nombre>Juan</nombre>.
++ Atributos: Los elementos pueden tener atributos que proporcionan información adicional sobre el elemento. Por ejemplo: <persona id="123">.
++ Comentarios: Se pueden incluir comentarios en XML usando la sintaxis <!-- comentario -->.
++ Procesamiento de Instrucciones: Se pueden incluir instrucciones de procesamiento XML, que son instrucciones para aplicaciones que procesan el documento XML.
+
+
+**Estructura Jerarquica:**
+
+  <libro>
+  <titulo>El Gran Gatsby</titulo>
+  <autor>F. Scott Fitzgerald</autor>
+</libro>
+
+Documento XML Bien Formado y Válido:
+
+Documento XML Bien Formado: Un documento XML bien formado sigue todas las reglas de sintaxis de XML.
+Documento XML Válido: Además de ser bien formado, un documento XML válido sigue una estructura definida por un esquema XML (como un documento DTD o un esquema XML).
+
+**Aqui os dejo una fuente de información:**
+
+![Tutorial_xml] https://www.w3schools.com/xml/)
+
+**DTD:**
+> DTD (Document Type Definition) es una especificación formal que define la estructura, el tipo de datos y las restricciones de un documento XML. En otras palabras, un DTD describe la gramática o la estructura de un documento XML. Se utiliza para validar documentos XML y garantizar que cumplan con ciertas reglas o estándares específicos.
+
++ 1. Definición de Elementos y Atributos:
+
+En un DTD, se pueden definir los elementos que pueden aparecer en el documento XML, así como los atributos que pueden tener esos elementos.
+Se especifica qué elementos pueden contener otros elementos, el orden en que deben aparecer y qué atributos son permitidos para cada elemento.
+
++ 2. Tipos de Datos:
+
+Los DTD pueden definir tipos de datos para los valores de los atributos y elementos.
+Los tipos de datos comunes incluyen cadenas de texto, números enteros, números decimales, fechas, etc.
+
++ 3. Entidades:
+
+_Las entidades en un DTD son símbolos que representan valores de texto o fragmentos de XML.
+Se pueden usar para definir valores comunes que se utilizan en múltiples lugares dentro del documento XML, lo que facilita la reutilización y la mantenibilidad del código._
+
++ 4. Validación:
+
+_Un DTD se utiliza para validar documentos XML para asegurarse de que cumplan con las reglas especificadas en la definición.
+La validación puede realizarse durante el proceso de análisis (parsing) del documento XML para detectar errores estructurales o semánticos._
+
++ 5. Integración con XML:
+
+_Un DTD se puede incluir dentro de un documento XML usando la declaración DOCTYPE.
+La declaración DOCTYPE especifica la ubicación del DTD que define la estructura del documento XML._
+
+
+
 
 
 
