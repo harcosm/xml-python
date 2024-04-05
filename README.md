@@ -87,7 +87,17 @@ error: TypeError: can only concatenate str (not &quot;int&quot;) to str
 desea que imprima por pantalla sin efectuar un salto de línea, debemos incluir el parámetro end = “”, que evita
 que se produzca un salto de línea en la impresión por pantalla.
 
-![Alt](/Imagenes/signos.png")
+**Operadores Aritméticos:**
+
+![Alt](https://lh5.googleusercontent.com/proxy/l_uTj1DPMx5ZKyTLU5YCmWDt8DbbCIKgidakwMTOjTJG7WHrZCZzYdIfOVEJPHVTd2YXSrqYy9S9L-bCrKTjmw)
+
+
+
+**Operadores Relacionales:**
+
+![Alt](https://static.platzi.com/media/user_upload/3-cfdd4483-f912-448c-a65c-8e3e4682001c.jpg)
+
+
 
 
 
