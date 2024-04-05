@@ -240,6 +240,16 @@ Una lista en Python se define mediante los elementos encerrados entre []
 | sort |Ordena los elementos de la lista, en orden ascendente o descendente, dependiendo de un parámetro reverse que se le indica en el método sort. | lista.sort() =&gt; [1, 2, 3] |
 | index | Devuelve la primera posición o índice donde se encuentra el elemento pasado como parámetro. | lista = [3, 1, 2] lista.index(2) =&gt; 2lista.index(3) =&gt; 0 |
 
+**Tuplas**
+Tipos o estructuras de datos que permiten almacenar un conjunto de elementos de forma muy parecida a las
+listas, que, a diferencia de otros lenguajes, en Python sí permite que sean elementos de diferente tipo.
+
+A continuacion para este apartado me gustaria dejar una explicacion muy completa de esta pagina web:
+
+Esta todo perfectamente estructurado:
+
+[Link_tuplas](https://www.w3schools.com/python/python_tuples.asp "Escuela")
+
 
 
 
