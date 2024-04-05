@@ -225,6 +225,7 @@ Una lista en Python se define mediante los elementos encerrados entre []
 + lista2 = [1, 2, 3, 4] =&gt; lista con elementos, se declaran los elementos entre [] y separados por comas.
 + lista3 = [1, 2.8, ‘a’, ‘pepe’, [‘a’, ‘b’, ‘c’]] =&gt; lista con diferentes tipos de elemento.
 
+**Metodos**
   	
 | Metodos | Funcion | ejemplo |
 | ----------- | ----------- | ------------ |
@@ -233,7 +234,12 @@ Una lista en Python se define mediante los elementos encerrados entre []
 | append | Añade un elemento al final de la lista | lista = [1, 2, 3] lista.append(5) =&gt; [1, 2, 3, 5] |
 | extend | Añade una lista al final de la lista actual | lista = [1, 2, 3]lista.extend([4, 5, 6]) =&gt; [1, 2, 3, 4, 5, 6] |
 | Insert | Añade un elemento en un índice determinado. | lista = [1, 2, 3]lista.insert(1, 5) =&gt; [1, 2, 3] =&gt; [1, 5, 2, 3] |
-| pop |Borrar un elemento de la lista. Si le indicamos posición como parámetro borrará el elemento situado en esa posición, si no le indicamos posición en el parámetro borrará el último elemento. | lista.pop(1) =&gt; [1, 2, 3] =&gt; [1,3]. |
+| pop |Borrar un elemento de la lista. Si le indicamos posición como parámetro borrará el elemento situado en esa posición, si no le indicamos posición en el parámetro borrará el último elemento. | lista.pop(1) =&gt; [1, 2, 3]  |
+| remove | Borrar el elemento pasado como parámetro de la lista. si le indicamos un elemento que noexiste en la lista, la aplicación dará un error indicando que ese elemento no está en lalista.| lista.remove(“Pepe”)=&gt[“Luis”,“Antonio”, “Pepe”, “Alfredo”] =&gt; [“Luis”, “Antonio”, “Alfredo”] |
+| reverse | Invierte el orden de los elementos de la lista | lista = [1, 2, 3]lista.reverse() =&gt; [3, 2, 1] |
+| sort |Ordena los elementos de la lista, en orden ascendente o descendente, dependiendo de un parámetro reverse que se le indica en el método sort. | lista.sort() =&gt; [1, 2, 3] |
+| index | Devuelve la primera posición o índice donde se encuentra el elemento pasado como parámetro. | lista = [3, 1, 2] lista.index(2) =&gt; 2lista.index(3) =&gt; 0 |
+
 
 
 
