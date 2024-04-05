@@ -87,5 +87,7 @@ error: TypeError: can only concatenate str (not &quot;int&quot;) to str
 desea que imprima por pantalla sin efectuar un salto de línea, debemos incluir el parámetro end = “”, que evita
 que se produzca un salto de línea en la impresión por pantalla.
 
+![Alt](/Imagenes/signos.png")
+
 
 
