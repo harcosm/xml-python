@@ -340,6 +340,72 @@ La validación puede realizarse durante el proceso de análisis (parsing) del do
 _Un DTD se puede incluir dentro de un documento XML usando la declaración DOCTYPE.
 La declaración DOCTYPE especifica la ubicación del DTD que define la estructura del documento XML._
 
+**Ejemplo dtd**
+
+
+![image](https://github.com/harcosm/xml-python/assets/130600270/c1587c79-be16-4e82-88ee-0a21725590ad)
+
+
+**Aqui os dejo un Tutorial con mas profundidad del temario de DTD**
+
+
+![Tutorial_xml] https://www.w3schools.com/xml/xml_dtd_intro.asp)
+
+**XSD:**
+
+> XSD (XML Schema Definition), también conocido como XML Schema, es un lenguaje de definición de esquemas XML que se utiliza para describir la estructura y las restricciones de un documento XML de una manera más poderosa y flexible que los DTD (Document Type Definitions). Al igual que los DTD, los esquemas XML son utilizados para validar documentos XML y garantizar su conformidad con una estructura y semántica específicas.
+
+
+_ XSD (XML Schema Definition), también conocido como XML Schema, es un lenguaje de definición de esquemas XML que se utiliza para describir la estructura y las restricciones de un documento XML de una manera más poderosa y flexible que los DTD (Document Type Definitions). Al igual que los DTD, los esquemas XML son utilizados para validar documentos XML y garantizar su conformidad con una estructura y semántica específicas. _
+
+> Aquí hay algunos aspectos importantes sobre XSD:
+
+1. Definición de Estructuras:
+
++ XSD permite definir estructuras complejas para los elementos XML, incluyendo la composición de elementos anidados y la especificación de tipos de datos para los elementos y atributos.
+
+2. Tipos de Datos:
+
++ A diferencia de los DTD, XSD ofrece un conjunto más amplio de tipos de datos, como cadenas de texto, números enteros, decimales, fechas, booleanos, entre otros.
+También permite la definición de tipos de datos complejos y derivados, como tipos enumerados, tipos de listas y tipos de uniones.
+
+3. Restricciones y Validación:
+
++XSD permite establecer restricciones sobre los valores de los elementos y atributos, como rangos numéricos, expresiones regulares para cadenas de texto, entre otros.
+Los documentos XML que siguen un esquema XML pueden ser validados contra ese esquema para garantizar su conformidad con las reglas especificadas.
+
+4. Reutilización:
+
++ XSD facilita la reutilización de componentes y la modularidad a través de la definición de elementos y tipos complejos que pueden ser referenciados desde múltiples documentos XML.
+Los esquemas XML pueden ser importados y extendidos para permitir la construcción de esquemas más grandes y complejos.
+
+5. Espacios de Nombres:
+
++ XSD soporta la especificación de espacios de nombres XML, lo que permite evitar conflictos de nombres entre diferentes partes de un documento XML o entre documentos XML relacionados.
+
+  **Ejemplo XSD:**
+
+  ![image](https://github.com/harcosm/xml-python/assets/130600270/155e6a4a-2696-4034-adff-930d44a8e698)
+
+  **Aqui os dejo un Tutorial con mas profundidad del temario de DTD**
+
+![Tutorial_xml] https://www.w3schools.com/xml/schema_intro.asp)
+
+
+
+| Característica              | XML                       | DTD                             | XSD (XML Schema)               |
+|-----------------------------|---------------------------|---------------------------------|--------------------------------|
+| Definición de estructuras   | Sí                        | Limitada                        | Sí                             |
+| Tipos de datos              | Limitados                 | Básicos                         | Amplia gama                    |
+| Restricciones y validación  | No                        | Básica                          | Compleja                       |
+| Reutilización               | No                        | Limitada                        | Sí                             |
+| Espacios de nombres         | No                        | Limitada                        | Sí                             |
+| Legibilidad                 | Sí                        | Sí                              | Sí                             |
+| Extensibilidad              | Sí                        | No                              | Sí                             |
+| Soporte                     | Amplio                    | Limitado                        | Amplio                         |
+
+
+
 
 
 
