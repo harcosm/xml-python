@@ -97,6 +97,41 @@ que se produzca un salto de línea en la impresión por pantalla.
 
 ![Alt](https://static.platzi.com/media/user_upload/3-cfdd4483-f912-448c-a65c-8e3e4682001c.jpg)
 
+**Estructuras y condicionales**
+
+Es una estructura cuyo interior se ejecuta en base a una condición, el contenido de una estructura alternativa se
+ejecutará siempre que se cumpla una determinada condición (expresión), o, dicho de otra forma, si esa condición
+es VERDADERA.
+En lenguaje Python tenemos las siguientes estructuras alternativas:
+
+**Condicion if:**
+
+*Esta estructura ejecutará la sentencia o sentencias que se incluyan en ella cuando la condición de la
+estructura if sea verdadera. En caso de que la condición sea falsa no entrará dentro de la estructura if y
+continuará ejecutando el resto del programa. Puede darse el caso, depende del valor de la condición, si es
+falsa, nunca entrará en esta estructura y no ejecutará el contenido que tenemos en el interior.*
+
+**Condicion Doble(if-else):**
+
+*Esta estructura ejecutará la sentencia o sentencias que se incluyan en ella cuando la condición de la
+estructura if sea verdadera y en caso contrario, si es falsa, se ejecutarán las sentencias incluidas dentro de la
+estructura else. Después de ejecutar una de las dos posibles estructuras (if o else) continuará ejecutando el
+resto del programa. O bien se ejecuta la estructura if o bien se ejecuta la estructura else, pero siempre
+ejecuta una de las dos de forma obligatoria.*
+
+**Condición múltiple o condición anidada: (if-elif)**
+*Esta estructura ejecutará las sentencias incluidas dentro de una estructura if si la condición1 es
+verdadera, en caso de que sea falsa comprobará la condición2, si es verdadera ejecutará las sentencias
+del elif, si es falsa la condición2 comprobará las siguientes condiciones y en caso de que alguna se
+cumpla se ejecutarán sus sentencias, saldrá de la estructura y continuará ejecutando el resto del
+programa.
+Puede darse el caso que no se cumpla ninguna de las condiciones, si todas las condiciones son falsas,
+no ejecutará ninguna de ellas, tal y como sucedía con la estructura condicional simple (if). Si queremos
+evitar este problema podemos incluir al final una sentencia else para el caso o los casos en los que no
+se cumplan ninguna de las condiciones anteriores.
+Se pueden incluir todas las estructuras elif que se consideren oportunas. No hay un límite numérico de
+las que se pueden utilizar.*
+
 
 
 
