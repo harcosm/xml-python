@@ -209,6 +209,33 @@ como tampoco se indica, será automáticamente de 1 en 1.
 ponerle 3 parámetros. No puedo omitir el 0 ya que si le pongo solo dos parametros Python
 reconocerá la función únicamente como el anterior caso, es decir, con un inicio y un fin.
 
+**Listas**
+
+1. No están ordenadas, se inserta donde el programador desea que se realice: al final de la lista o en una
+posición determinada de la lista.
+2. Se pueden repetir sus elementos, permite duplicados.
+3. Son indexadas, es decir, permite acceder a los elementos mediante el [i].
+4. Se pueden anidar, es decir, añadir una lista dentro de otra lista  matriz.
+5. Son mutables, sus elementos se pueden modificar, eliminar o intercambiar.
+6. Son dinámicas, su tamaño crece o decrece automáticamente al insertar o al eliminar elementos.
+
+Una lista en Python se define mediante los elementos encerrados entre []
+
++ lista1 = [] =&gt; lista vacía. Se representa con dos corchetes vacíos
++ lista2 = [1, 2, 3, 4] =&gt; lista con elementos, se declaran los elementos entre [] y separados por comas.
++ lista3 = [1, 2.8, ‘a’, ‘pepe’, [‘a’, ‘b’, ‘c’]] =&gt; lista con diferentes tipos de elemento.
+
+  	
+| Metodos | Funcion | ejemplo |
+| ----------- | ----------- | ------------ |
+| len | Devuelve el tamaño o longitud de la lista | len(nombre de la lista) |
+| count | Devuelve el número de veces que se encuentra el valor indicado en el parámetro dentro de la lista. | lista = [“pepe”, “antonio”, “luis”, “pepe”] lista.count(“pepe”) =&gt; 2 |
+| append | Añade un elemento al final de la lista | lista = [1, 2, 3] lista.append(5) =&gt; [1, 2, 3, 5] |
+| extend | Añade una lista al final de la lista actual | lista = [1, 2, 3]lista.extend([4, 5, 6]) =&gt; [1, 2, 3, 4, 5, 6] |
+| Insert | Añade un elemento en un índice determinado. | lista = [1, 2, 3]lista.insert(1, 5) =&gt; [1, 2, 3] =&gt; [1, 5, 2, 3] |
+| pop |Borrar un elemento de la lista. Si le indicamos posición como parámetro borrará el elemento situado en esa posición, si no le indicamos posición en el parámetro borrará el último elemento. | lista.pop(1) =&gt; [1, 2, 3] =&gt; [1,3]. |
+
+
 
 
 
