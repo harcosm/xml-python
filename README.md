@@ -250,6 +250,20 @@ Esta todo perfectamente estructurado:
 
 [Link_tuplas](https://www.w3schools.com/python/python_tuples.asp "Escuela")
 
+**Diccionarios**
+
+Un diccionario es una estructura de datos donde cada elemento está formado por un par de valores clave y valor.
+La clave de un diccionario es única y no se puede repetir, el valor para esa clave puede ser un tipo básico
+(enteros, decimales, cadenas de texto) o un tipo compuesto (lista, otro diccionario)
+
+1. Son dinámicos: crecen o decrecen, se pueden añadir y eliminar elementos.
+2. Son idexados: los elementos de un diccionario se pueden acceder a través de la clave.
+3. Son anidados: un diccionario puede contener a otro diccionario en su campo value.
+
+![Alt](https://www.bigbaydata.com/wp-content/uploads/2022/07/diccionarios-en-python.webp)
+
+
+
 
 
 
